@@ -1,7 +1,6 @@
-create table tutores(
-    id bigint not null auto_increment,
-    nome varchar(100) not null,
-    telefone varchar(14) not null unique,
-    email varchar(100) not null unique,
-    primary key(id)
+CREATE TABLE tutores (
+    id serial PRIMARY KEY,
+    nome varchar(100) NOT NULL,
+    telefone varchar(14) NOT NULL UNIQUE,
+    email varchar(100) NOT NULL UNIQUE
 );
