@@ -58,5 +58,4 @@ public class AdocaoController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-
 }
